@@ -1,0 +1,28 @@
+[10-Jul-2014 22:36:26 UTC] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'arshadir'@'localhost' (using password: NO) in /home/arshadir/public_html/ptc/includes/classes/class_core.php on line 29
+[10-Jul-2014 22:36:26 UTC] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/arshadir/public_html/ptc/includes/classes/class_core.php on line 29
+[13-Jul-2014 01:11:17 Iran] PHP Fatal error:  Uncaught exception 'SmartyCompilerException' with message 'Syntax Error in template &quot;/home/arshadir/public_html/ptc/templates/ModernBlue/account.tpl&quot;  on line 71 &quot;{include file=&amp;quot;footer.tpl&amp;quot;}&quot; unclosed {if} tag' in /home/arshadir/public_html/ptc/includes/plugins/smarty/sysplugins/smarty_internal_templatecompilerbase.php:665
+Stack trace:
+#0 /home/arshadir/public_html/ptc/includes/plugins/smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(118): Smarty_Internal_TemplateCompilerBase->trigger_template_error('unclosed {if} t...')
+#1 /home/arshadir/public_html/ptc/includes/plugins/smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler->doCompile('{include file="...')
+#2 /home/arshadir/public_html/ptc/includes/plugins/smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase->compileTemplate(Object(Smarty_Internal_Template))
+#3 /home/arshadir/public_html/ptc/includes/plugins/smarty/sysplugin in /home/arshadir/public_html/ptc/includes/plugins/smarty/sysplugins/smarty_internal_templatecompilerbase.php on line 665
+[13-Jul-2014 02:46:09 Iran] PHP Parse error:  syntax error, unexpected T_NS_SEPARATOR in /home/arshadir/public_html/ptc/languages/english.php on line 213
+[13-Jul-2014 02:49:03 Iran] PHP Parse error:  syntax error, unexpected T_NS_SEPARATOR in /home/arshadir/public_html/ptc/languages/english.php on line 213
+[13-Jul-2014 05:45:16 Asia/Tehran] PHP Fatal error:  Uncaught exception 'SmartyCompilerException' with message 'Syntax Error in template &quot;/home/arshadir/public_html/ptc/templates/ModernBlue/messages_read.tpl&quot;  on line 15 &quot;&amp;lt;td&amp;gt;{$msg_info.date_format:&amp;quot;%B %e %Y %r&amp;quot;}&amp;lt;/td&amp;gt;&quot;  - Unexpected &quot;:&quot;, expected one of: &quot;}&quot; , &quot; &quot; , ATTR' in /home/arshadir/public_html/ptc/includes/plugins/smarty/sysplugins/smarty_internal_templatecompilerbase.php:665
+Stack trace:
+#0 /home/arshadir/public_html/ptc/includes/plugins/smarty/sysplugins/smarty_internal_templateparser.php(3144): Smarty_Internal_TemplateCompilerBase->trigger_template_error()
+#1 /home/arshadir/public_html/ptc/includes/plugins/smarty/sysplugins/smarty_internal_templateparser.php(3209): Smarty_Internal_Templateparser->yy_syntax_error(2, ':')
+#2 /home/arshadir/public_html/ptc/includes/plugins/smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser->doParse(2, ':')
+#3 /home/arshadir/publi in /home/arshadir/public_html/ptc/includes/plugins/smarty/sysplugins/smarty_internal_templatecompilerbase.php on line 665
+[14-Jul-2014 00:14:06 Iran] PHP Warning:  Invalid argument supplied for foreach() in /home/arshadir/public_html/ptc/Sources/createad.php on line 88
+[14-Jul-2014 00:14:59 Iran] PHP Warning:  Invalid argument supplied for foreach() in /home/arshadir/public_html/ptc/Sources/createad.php on line 88
+[14-Jul-2014 00:52:55 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/arshadir/public_html/ptc/includes/plugins/smarty/sysplugins/smarty_internal_templatebase.php:340) in /home/arshadir/public_html/ptc/Sources/allocate_credits.php on line 90
+[14-Jul-2014 11:34:31 Iran] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Empty needle in /home/arshadir/public_html/ptc/Sources/surfer.php on line 59
+[14-Jul-2014 11:39:58 Iran] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Empty needle in /home/arshadir/public_html/ptc/Sources/surfer.php on line 59
+[14-Jul-2014 11:40:27 Iran] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Empty needle in /home/arshadir/public_html/ptc/Sources/surfer.php on line 59
+[16-Jul-2014 00:56:40 Asia/Tehran] PHP Fatal error:  Uncaught exception 'SmartyCompilerException' with message 'Syntax Error in template &quot;/home/arshadir/public_html/ptc/templates/ModernBlue/withdraw_history.tpl&quot;  on line 16 &quot;&amp;lt;td align=&amp;quot;center&amp;quot;&amp;gt;{$item.date|date_format:}&amp;lt;/td&amp;gt;&quot;  - Unexpected &quot;}&quot;' in /home/arshadir/public_html/ptc/includes/plugins/smarty/sysplugins/smarty_internal_templatecompilerbase.php:665
+Stack trace:
+#0 /home/arshadir/public_html/ptc/includes/plugins/smarty/sysplugins/smarty_internal_templateparser.php(3144): Smarty_Internal_TemplateCompilerBase->trigger_template_error()
+#1 /home/arshadir/public_html/ptc/includes/plugins/smarty/sysplugins/smarty_internal_templateparser.php(3209): Smarty_Internal_Templateparser->yy_syntax_error(17, '}')
+#2 /home/arshadir/public_html/ptc/includes/plugins/smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser->doParse(17, '}')
+#3 /home/arshadir/public_html/ptc/includes/plugins/smarty/sysplugins/s in /home/arshadir/public_html/ptc/includes/plugins/smarty/sysplugins/smarty_internal_templatecompilerbase.php on line 665

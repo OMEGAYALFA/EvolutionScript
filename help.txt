@@ -1,0 +1,8 @@
+yek datebase besazid va file db.sql ro tush import konin
+hala dobare file ip2nationcountries.sql ro tush import konin
+
+etelaat datebase ro dakhele includes\config.php vared kodin
+
+hatman avale har kari bade nasb be tanzimate site beravid va adrese site ra vared konid
+
+user pase pin modiriat : admin admin 123456
