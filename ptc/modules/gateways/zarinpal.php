@@ -46,7 +46,7 @@ $id = $db->lastInsertId();
 $_SESSION["ids"]=$id;
 
 
-$amount = number_format($_POST['amount']);
+$amount = $_POST['amount'];
 $_SESSION["amounts"]=$amount;
 
 $callback = "" . $settings['site_url'] . "modules/gateways/zarinpal_verify.php";
